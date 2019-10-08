@@ -10,7 +10,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:text="Register"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/editText4"
@@ -24,9 +24,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="31dp"
         android:layout_marginLeft="31dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="0dp"
         android:layout_marginRight="171dp"
         android:layout_marginBottom="60dp"
+        android:layout_marginEnd="50dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="First Name"
@@ -35,13 +36,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+
     <EditText
         android:id="@+id/editText5"
-        android:layout_width="198dp"
-        android:layout_height="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginStart="31dp"
         android:layout_marginLeft="31dp"
-        android:layout_marginEnd="171dp"
+        android:layout_marginEnd="50dp"
         android:layout_marginRight="171dp"
         android:ems="10"
         android:hint="Department"
@@ -54,12 +56,12 @@
 
     <EditText
         android:id="@+id/editText6"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
         android:layout_marginStart="31dp"
         android:layout_marginLeft="31dp"
-        android:layout_marginEnd="171dp"
+        android:layout_marginEnd="50dp"
         android:layout_marginRight="171dp"
         android:ems="10"
         android:hint="Last Name"

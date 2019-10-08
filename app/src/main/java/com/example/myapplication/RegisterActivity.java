@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -42,14 +43,18 @@ public class RegisterActivity extends AppCompatActivity {
 
                 startActivityForResult(intent,1);
                 finish();
+
+
             }
 
 
         });
 
+
         String mondat = getIntent().getStringExtra("result");
         TextView text = findViewById(R.id.textView_result);
         text.setText(mondat);
+
 
     }
 }

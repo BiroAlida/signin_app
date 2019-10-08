@@ -10,8 +10,8 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText et, et2,et3;
-    String firstName, lastName, department;
+    EditText et, et2; // et -> a First Name beiras mezojenek valtozoja, et2 -> Last Name
+    String firstName, lastName;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,8 +52,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
     }
-
 
 }

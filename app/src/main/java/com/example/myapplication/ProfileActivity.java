@@ -41,14 +41,14 @@ public class ProfileActivity extends AppCompatActivity {
             department = getIntent().getExtras().getString("UserDepartment");
              TextView tv3 = findViewById(R.id.textView3);
              tv3.setText(department);
+
              Intent i = new Intent();
-             i.putExtra("result", firstName + department );
+             i.putExtra("result", firstName + lastName + department );
              setResult(Activity.RESULT_OK, i);
-             //finish();
+
+            // finish();
 
         }
-
-
 
 
     }
